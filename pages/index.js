@@ -27,17 +27,6 @@ export default function Home(props) {
   };
   return (
     <div className={styles.container}>
-            {/* <div style={{ height: '20vh', width: '30%' }}>
-        <GoogleMapReact
-          bootstrapURLKeys={{ key: 'AIzaSyB2vk-flSwNsDj30zDY6RKAMxCICYOw5MY' }}
-          defaultCenter={defaultProps.center}
-          defaultZoom={defaultProps.zoom}
-        >
-        </GoogleMapReact>
-      </div> */}
-
-      {/* <img src={data['country_flag']} /> */}
-
     <Terminal name='USER IDENTIFICATION SERVICE'   lineData={terminalData} onInput={ terminalInput => console.log(`New terminal input received: '${ terminalInput }'`) }/>
 
           
