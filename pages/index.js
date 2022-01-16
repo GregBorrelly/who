@@ -7,7 +7,6 @@ const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 export default function Home(props) {
   const { IP,data  } = props;
-  debugger;
   const dataArr = Object.keys(data);
   const terminalData = dataArr.filter(key => {
     if(key == 'ip' || key == 'country_flag' ) return null;
@@ -26,7 +25,6 @@ export default function Home(props) {
     },
     zoom: 10
   };
-  debugger;
   return (
     <div className={styles.container}>
             {/* <div style={{ height: '20vh', width: '30%' }}>
